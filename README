@@ -1,0 +1,3 @@
+Use i9100 4.0 source to build gps fix module for any kernel.
+
+You must edit kernel config,makefile,kernel script to fit the kernel version.
