@@ -32,7 +32,7 @@ int gps_ntt_init(void)
          break;
     }
     class_dev_iter_exit(&iter);
-    if(strcmp(gps_dev->kobj.name,"gps")!=0)
+    if(gps_dev==NULL)
       return 0;
 
     s3c_gpio_cfgpin(GPIO_GPS_PWR_EN, S3C_GPIO_SLP_INPUT);
