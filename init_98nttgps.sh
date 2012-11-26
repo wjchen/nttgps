@@ -1,4 +1,4 @@
-#!/sbin/busybox sh
+#!/system/bin/sh
 
 insmod /data/local/tmp/nttgps.ko
 sleep 5
